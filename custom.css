@@ -1,0 +1,21 @@
+html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body{
+margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(to bottom, #cd2886, #dc1c74, #e71661, 
+		#ed1f4b, #ef3034, #e23526, #d43917, #c63c05, #ab3306, #912a06, #782104, #601900);
+}
+
+iframe{
+	margin: 0;
+	padding: 0;
+
+}
