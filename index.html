@@ -9,11 +9,11 @@
 	<!-- Tag Descripcion -->
 	<meta name="description" content="">
 	<!-- Tag Palabras claves -->
-    <meta name="keywords" content="cotillon,reposter&iacute;a,globos,fiesta,cumplea&ntilde;os,
-    descartables,cart&oacute;n">
-    <meta name="author" content="Federico Nery">
-    <!-- Icono pagina -->
-    <link rel="icon" href="logoNanoCotillon.png">
+	<meta name="keywords" content="cotillon,reposter&iacute;a,globos,fiesta,cumplea&ntilde;os,
+	descartables,cart&oacute;n">
+	<meta name="author" content="Federico Nery">
+	<!-- Icono pagina -->
+	<link rel="icon" href="logoNanoCotillon.png">
 
 	<!--Bootstrap 4.2.1-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -32,7 +32,12 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+	<div class="row">
+		<br/>
+		<br/>
+		<br/>
+	</div>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top">
 		<!-- Brand -->
 		<a class="navbar-brand" href="#">Nano Cotillon</a>
 
@@ -68,87 +73,127 @@
 			</ul>
 		</div>
 	</nav> 
-	<!-- Card Group -->
-	<div class="card-group">
-		<div class="card bg-primary">
-			<div class="card-body text-center">
-				<p class="card-text">Some text inside the first card</p>
-			</div>
-		</div>
-		<div class="card bg-warning">
-			<div class="card-body text-center">
-				<p class="card-text">Some text inside the second card</p>
-			</div>
-		</div>
-		<div class="card bg-success">
-			<div class="card-body text-center">
-				<p class="card-text">Some text inside the third card</p>
-			</div>
-		</div>
-		<div class="card bg-danger">
-			<div class="card-body text-center">
-				<p class="card-text">Some text inside the fourth card</p>
-			</div>
-		</div> 
-	</div>
 
+	<div class="row">
+		<br/>
+		<br/>
+		<br/>
+	</div>
 	<div id="productos">
+		<h2>PRODUCTOS</h2>
 		<!-- podria poner tab panes  -->
+		<ul class="nav nav-tabs">
+			<li class="nav-item">
+				<a class="nav-link active" data-toggle="tab" href="#productos_reposteria">Reposter&iacute;a</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-toggle="tab" href="#productos_descartables">Descartables</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-toggle="tab" href="#productos_carnaval">Carnaval</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-toggle="tab" href="#productos_fiesta" >Fiesta</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-toggle="tab" href="#productos_souvenirs" >Souvenirs</a>
+			</li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+		  <div class="tab-pane container active" id="productos_reposteria">...</div>
+		  <div class="tab-pane container fade" id="productos_descartables">...</div>
+		  <div class="tab-pane container fade" id="productos_carnaval">...</div>
+		  <div class="tab-pane container fade" id="productos_fiesta">...</div>
+		  <div class="tab-pane container fade" id="productos_souvenirs">...</div>
+		</div>
 	</div>
 
-
+<div class="row">
+		<br/>
+		<br/>
+		<br/>
+	</div>
 	<div id="trabajamos_con">
-
+		<h2>MARCAS</h2>
 	</div>
-
+<div class="row">
+		<br/>
+		<br/>
+		<br/>
+	</div>
 	<div id="nosotros">
+		<h2>NOSOTROS</h2>
 		<p>Nano Cotill&oacute;n fue fundado el 1° de Junio de 2014. Nos dedicamos a la venta de artículos de cotill&oacute;n, reposter&iacute;a y papeler&iacute;a. Nuestro servicio es personalizado, orientado a contemplar las necesidades de nuestros clientes por lo que estamos en continua expansión.</p>
 	</div>
-
-	<div id="contacto">
-				<label>Nombre:</label>
-				<input id="nombre" class="form-control">	
-			
-				<label>Correo electr&oacute;nico:</label>
-				<input type="email" class="form-control" id="email">
-			
-				<label>Asunto:</label>
-				<input id="asunto" class="form-control">
-
-				<label>Mensaje:</label>
-				<textarea class="form-control">
-				</textarea>	
-			<button type="submit" class="btn btn-primary">Enviar</button>
+<div class="row">
+		<br/>
+		<br/>
+		<br/>
 	</div>
+	<div id="contacto">
+		<label>Nombre:</label>
+		<input id="nombre" class="form-control">	
 
+		<label>Correo electr&oacute;nico:</label>
+		<input type="email" class="form-control" id="email">
+
+		<label>Asunto:</label>
+		<input id="asunto" class="form-control">
+
+		<label>Mensaje:</label>
+		<textarea class="form-control">
+		</textarea>	
+		<button type="submit" class="btn btn-primary">Enviar</button>
+	</div>
+<div class="row">
+		<br/>
+		<br/>
+		<br/>
+	</div>
 	<div id="ubicacion">
+		<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-6 col-sm-12 col-xs-12">
-		<!--Map-->
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.6932717769687!2d-58.44149358505027!3d-34.66244846811438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb253ab3f1ff%3A0x57d9a70d3fb9cb4!2sNano+Cotill%C3%B3n!5e0!3m2!1ses-419!2sar!4v1548565270789" height="450" width="600" ></iframe>
-		</div>
-		<div class="col-md-6 col-sm-12 col-xs-12">
-		<!--Street view-->
-		<iframe src="https://www.google.com/maps/embed?pb=!4v1548564888960!6m8!1m7!1s-08y27nMyl7IWpJCb8JJpg!2m2!1d-34.66240060201291!2d-58.43919922856632!3f225.1989406873948!4f-1.3669928938148956!5f0.7820865974627469" width="600" height="450" ></iframe>
-		</div>
+				<!--Map-->
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.6932717769687!2d-58.44149358505027!3d-34.66244846811438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb253ab3f1ff%3A0x57d9a70d3fb9cb4!2sNano+Cotill%C3%B3n!5e0!3m2!1ses-419!2sar!4v1548565270789" height="450" width="600" ></iframe>
+			</div>
 		</div>
 	</div>
+	</div>
 	<!--FOOTER-->
-  	
-  	<div id="footer">
+<div class="row">
+		<br/>
+		<br/>
+		<br/>
+	</div>
+	<div id="footer">
+		<div class="container-fluid">
 		<div class="row">
-		<div class="col-md-4 col-sm-4 col-xs-12" >&nbsp;</div>
-		<div class="col-md-4 col-sm-4 col-xs-12" >&copy;Nano Cotill&oacute;n 2019</div>
-		<div class="col-md-4 col-sm-4 col-xs-12" >
-			<a id="logoFacebook" href="https://www.facebook.com/nanocotillon/" target="_blank">
-			</a>
-		</div>
+			
+			<div class="col-md-4 col-sm-4 col-xs-12" >
+				<h4>&copy;Nano Cotill&oacute;n 2019</h4>
+			</div>
+			<div class="col-md-8 col-sm-8 col-xs-12" >
+				<a id="logoInstagram" href="https://www.instagram.com/nanocotillon/" target="_blank"
+				class="float-right">
+					<i class="fab fa-instagram fa-3x">&nbsp;</i>
+				</a>
+				<a id="logoFacebook" href="https://www.facebook.com/nanocotillon/" target="_blank"
+				class="float-right">
+					<i class="fab fa-facebook fa-3x">&nbsp;</i>
+				</a>
+			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12" >
-			<p>Creado por <a href="https://github.com/FedericoNery" target="_blank">Federico Nery</a></p>
+				<div class="text-center">
+				<p>Creado por <a href="https://github.com/FedericoNery" target="_blank">Federico Nery</a></p>
+				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 
 </body>
