@@ -25,6 +25,9 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<!--JQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!--Tipografia-->
+	<link href="https://fonts.googleapis.com/css?family=Emilys+Candy" rel="stylesheet">
 	<!--Custom CSS-->
 	<link rel="stylesheet" type="text/css" href="custom.css">
 
@@ -32,12 +35,11 @@
 </head>
 
 <body>
+	<div class="container-fluid">
 	<div class="row">
-		<br/>
-		<br/>
-		<br/>
+		
 	</div>
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+	<nav class="navbar navbar-expand-md navbar-dark bgGris fixed-top">
 		<!-- Brand -->
 		<a class="navbar-brand" href="#">Nano Cotillon</a>
 
@@ -75,11 +77,12 @@
 	</nav> 
 
 	<div class="row">
-		<br/>
-		<br/>
-		<br/>
+
 	</div>
 	<div id="productos">
+		<br/>
+		<br/>
+		<br/>
 		<h2>PRODUCTOS</h2>
 		<!-- podria poner tab panes  -->
 		<ul class="nav nav-tabs">
@@ -110,29 +113,26 @@
 		</div>
 	</div>
 
-<div class="row">
-		<br/>
-		<br/>
-		<br/>
-	</div>
 	<div id="trabajamos_con">
+		<br/>
+		<br/>
+		<br/>
 		<h2>MARCAS</h2>
 	</div>
-<div class="row">
-		<br/>
-		<br/>
-		<br/>
-	</div>
+
 	<div id="nosotros">
+		<br/>
+		<br/>
+		<br/>
 		<h2>NOSOTROS</h2>
 		<p>Nano Cotill&oacute;n fue fundado el 1° de Junio de 2014. Nos dedicamos a la venta de artículos de cotill&oacute;n, reposter&iacute;a y papeler&iacute;a. Nuestro servicio es personalizado, orientado a contemplar las necesidades de nuestros clientes por lo que estamos en continua expansión.</p>
 	</div>
-<div class="row">
-		<br/>
-		<br/>
-		<br/>
-	</div>
+
 	<div id="contacto">
+		<br/>
+		<br/>
+		<br/>
+		<h2>CONTACTO</h2>
 		<label>Nombre:</label>
 		<input id="nombre" class="form-control">	
 
@@ -145,23 +145,35 @@
 		<label>Mensaje:</label>
 		<textarea class="form-control">
 		</textarea>	
-		<button type="submit" class="btn btn-primary">Enviar</button>
+		<br/>
+		<button type="submit" class="btn btn-dark">Enviar</button>
 	</div>
-<div class="row">
-		<br/>
-		<br/>
-		<br/>
-	</div>
-	<div id="ubicacion">
+	
+		
+		
 		<div class="container-fluid">
+			<br/>
+		<br/>
+		<br/>
 		<div class="row">
 			<div class="col-md-6 col-sm-12 col-xs-12">
-				<!--Map-->
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.6932717769687!2d-58.44149358505027!3d-34.66244846811438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb253ab3f1ff%3A0x57d9a70d3fb9cb4!2sNano+Cotill%C3%B3n!5e0!3m2!1ses-419!2sar!4v1548565270789" height="450" width="600" ></iframe>
+				<div id="ubicacion">
+					<h2>UBICACION</h2>
+					<!--Map-->
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.6932717769687!2d-58.44149358505027!3d-34.66244846811438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb253ab3f1ff%3A0x57d9a70d3fb9cb4!2sNano+Cotill%C3%B3n!5e0!3m2!1ses-419!2sar!4v1548565270789" height="450" width="100%"></iframe>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<div id="horarios">
+					<h2>HORARIOS</h2>
+					<h6>Lunes a Viernes de 8:30 a 13:00 y de 16:00 a 18:30</h6>
+					<h6>S&aacute;bados de 8:30 a 13:00</h6>
+					
+				</div>
 			</div>
 		</div>
 	</div>
-	</div>
+	
 	<!--FOOTER-->
 <div class="row">
 		<br/>
@@ -177,11 +189,11 @@
 			</div>
 			<div class="col-md-8 col-sm-8 col-xs-12" >
 				<a id="logoInstagram" href="https://www.instagram.com/nanocotillon/" target="_blank"
-				class="float-right">
+				class="float-right botonesRedesSociales">
 					<i class="fab fa-instagram fa-3x">&nbsp;</i>
 				</a>
 				<a id="logoFacebook" href="https://www.facebook.com/nanocotillon/" target="_blank"
-				class="float-right">
+				class="float-right botonesRedesSociales">
 					<i class="fab fa-facebook fa-3x">&nbsp;</i>
 				</a>
 			</div>
@@ -189,12 +201,12 @@
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12" >
 				<div class="text-center">
-				<p>Creado por <a href="https://github.com/FedericoNery" target="_blank">Federico Nery</a></p>
+				<p>Creado por <a id="linkGithub" href="https://github.com/FedericoNery" target="_blank">Federico Nery</a></p>
 				</div>
 			</div>
 		</div>
 	</div>
 	</div>
-
+</div>
 </body>
 </html>

@@ -1,15 +1,11 @@
+
+
 html{
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
+
 }
 
 body{
-margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
+	font-family: 'Emilys Candy', cursive;
 	background-image: linear-gradient(to bottom, #cd2886, #dc1c74, #e71661, 
 		#ed1f4b, #ef3034, #e23526, #d43917, #c63c05, #ab3306, #912a06, #782104, #601900);
 }
@@ -19,3 +15,18 @@ iframe{
 	padding: 0;
 
 }
+
+p,h1,h2,h3,h4,h5,h6,label{
+	color: rgb(0,0,0);
+}
+
+.nav-link{
+	color: rgb(0,0,0);
+}
+
+#linkGithub,.botonesRedesSociales{
+	color: rgb(165, 156, 150);
+}
+ .bgGris{
+ 	background-color: rgba(165, 156, 150, 0.85);
+ }
